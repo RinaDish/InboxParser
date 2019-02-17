@@ -17,7 +17,7 @@ function getDivData(){
     var strDiv = '';
     for(var i=0; i<divs.length; i++){
 	    if(divs[i].getAttribute('class')=="No" ){
-	        strDiv += divs[i].innerHTML;
+	        strDiv += divs[i].innerHTML + "\n";
 	    }
     }
 
